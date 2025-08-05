@@ -12,7 +12,7 @@ export default function MainScene() {
         </Bounds>
       </Suspense>
       <TrackballControls />
-      <ambientLight intensity={0.2} />
+      <ambientLight intensity={5} />
     </Canvas>
   );
 }
